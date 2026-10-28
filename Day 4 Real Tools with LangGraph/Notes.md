@@ -82,4 +82,4 @@ Both tools were successfully called and executed through LangGraph.
 ## 8. Conclusion
 I successfully built and tested a LangGraph agent with two real Python tools: a calculator and a current-time tool. The AI model selected the appropriate tool, LangGraph executed it, and the result returned to the chatbot.
 
-**Day 4 Status: Completed**
+
