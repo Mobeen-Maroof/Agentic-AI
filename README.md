@@ -1,7 +1,7 @@
 # Agentic AI — Week 1: Foundations & LangGraph
 
 **Author:** Mobeen Maroof  
-**Week:** 1 — Foundations & LangGraph  
+**Week:** 1  Foundations & LangGraph  
 **Model:** Llama 3.2  
 **Framework:** LangGraph  
 **Runtime:** Ollama  
