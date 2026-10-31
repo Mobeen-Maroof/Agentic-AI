@@ -36,21 +36,7 @@ Returns the current local date and time, including the timezone when available.
 6. The graph continues until the model provides a final response.
 7. A checkpointer preserves conversation state for the same thread ID.
 
-## 5. Installation and Setup
-
-Install the required packages in your Python environment:
-
-```bash
-pip install langgraph langchain-ollama
-```
-
-Install Ollama from [ollama.com](https://ollama.com/) and download the model:
-
-```bash
-ollama pull llama3.2
-```
-
-## 6. Run the Project
+## 5. Run the Project
 
 Run the program from the project folder:
 
@@ -68,7 +54,7 @@ What is the current time?
 exit
 ```
 
-## 7. Test Results
+## 6. Test Results
 
 | Test | Expected Result | Status |
 |---|---|---|
@@ -81,7 +67,7 @@ exit
 
 **Observation:** The model occasionally selects an unnecessary tool or produces malformed tool-like text. The tested graph still executed the requested calculations and returned the correct results.
 
-### Screenshots of Output
+## 7. Screenshots of Output
 <img width="1910" height="995" alt="image" src="https://github.com/user-attachments/assets/6154906b-d900-4a2e-a67b-fde12d361365" />
 <img width="1891" height="1008" alt="image" src="https://github.com/user-attachments/assets/3475793f-3a1c-40f9-9268-c1befcbaddae" />
 <img width="1896" height="1012" alt="image" src="https://github.com/user-attachments/assets/312f77d8-2a63-4847-827a-60e1d74a0c4c" />
